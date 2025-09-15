@@ -66,9 +66,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.8, duration: 0.8 }}
-          className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 max-w-xl mx-auto"
+          className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 max-w-xl mx-auto text-center"
         >
-          Full Stack Developer & AI/ML Enthusiast building modern web apps and smart AI solutions.
+          Full Stack Developer & AI/ML Enthusiast building sleek web applications, scalable solutions, and innovative AI-powered experiences.
         </motion.p>
 
         {/* Social Icons */}
