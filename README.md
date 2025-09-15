@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://your-live-demo-link.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://rohith-portfolio-gk.netlify.app/)
 
 ---
 
