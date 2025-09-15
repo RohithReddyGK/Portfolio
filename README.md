@@ -132,6 +132,7 @@ Visit http://localhost:5173 to see your portfolio live locally.
 
 ## Netlify Badge
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5cc2089d-5d92-497f-a585-5f3fa57628b2/deploy-status)](https://app.netlify.com/projects/rohith-portfolio-gk/deploys)
 
 ---
 
