@@ -6,6 +6,15 @@ import { ExternalLink, Github } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
+      title: "Personal Portfolio Website",
+      period: "Sep 2025 - Present",
+      description: "My personal portfolio website. Built with React, Tailwind CSS, and Framer Motion for smooth animations. Showcases Full Stack Development and AI/ML projects with interactive UI.",
+      skills: ["React.js", "TailwindCSS", "Framer Motion", "EmailJS", "Netlify"],
+      github: "https://github.com/RohithReddyGK/Portfolio",
+      live: "https://rohith-portfolio-gk.netlify.app/",
+      image: "/projects/Portfolio.png"
+    },
+    {
       title: "Cost of Living Analyzer",
       org: "AMC Engineering College",
       period: "Oct – Dec 2024",
