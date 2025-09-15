@@ -124,9 +124,9 @@ Visit http://localhost:5173 to see your portfolio live locally.
 
 ## Customization Notes
 
--- Animations: Framer Motion handles fade-ins, slide-ins, and Hero animation.
--- Colors & Dark Mode: Tailwind CSS classes handle the light/dark themes.
--- Adding Projects: Add new project cards in Projects.jsx and update images and descriptions in assets/.
+- Animations: Framer Motion handles fade-ins, slide-ins, and Hero animation.
+- Colors & Dark Mode: Tailwind CSS classes handle the light/dark themes.
+- Adding Projects: Add new project cards in Projects.jsx and update images and descriptions in assets/.
 
 ---
 
