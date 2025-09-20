@@ -8,6 +8,12 @@ export default function Certifications() {
 
   const certificates = [
     {
+      title: "Academic Excellence - ISE",
+      org: "AMC Engineering College",
+      date: "Sep 19, 2025",
+      image: "/certificates/Academic Excellence.jpg",
+    },
+    {
       title: "IoT Based Automatic Medicine Reminder",
       org: "IJCRT - INTERNATIONAL JOURNAL OF CREATIVE RESEARCH THOUGHTS",
       date: "Mar 3, 2023",
