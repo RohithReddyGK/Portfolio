@@ -8,7 +8,7 @@ export default function Certifications() {
 
   const certificates = [
     {
-      title: "Academic Excellence - ISE",
+      title: "Academic Excellence - ISE (CGPA: 9.13)",
       org: "AMC Engineering College",
       date: "Sep 19, 2025",
       image: "/certificates/Academic Excellence.jpg",
