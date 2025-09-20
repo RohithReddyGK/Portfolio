@@ -97,7 +97,7 @@ export default function Hero() {
             <FaGithub size={26} className="text-gray-800 dark:text-white" />
           </motion.a>
           <motion.a
-            href="/Rohith Reddy G K - Resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-white dark:bg-gray-700 shadow-md hover:shadow-lg transition"
