@@ -27,7 +27,7 @@ export default function About() {
     ];
 
     const education = [
-        { title: "B.E. – ISE", institute: "AMC Engineering College", year: "Dec 2022 – Present", cgpa: "9.3" },
+        { title: "B.E. – ISE", institute: "AMC Engineering College", year: "Dec 2022 – Present", cgpa: "9.13" },
         { title: "12th Standard", institute: "BGS PU College", year: "2022", percentage: "96.16%" },
         { title: "10th Standard", institute: "BGS Public School", year: "2020", percentage: "95.83%" },
     ];
