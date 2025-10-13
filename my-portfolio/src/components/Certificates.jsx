@@ -20,6 +20,12 @@ export default function Certifications() {
       image: "/certificates/IJCRT.jpg",
     },
     {
+      title:"Certification Course on Robotic Process Automation",
+      org: "Rockwell Automation & ICT Academy",
+      date: "Aug 11, 2025",
+      image: "/certificates/RPA Certificate.jpg",
+    },
+    {
       title: "Data Structures and Algorithms using JAVA",
       org: "NPTEL",
       date: "Nov 2024",
