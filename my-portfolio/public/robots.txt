@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rohith-portfolio-gk.netlify.app/sitemap.xml

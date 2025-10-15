@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -39,6 +40,27 @@ function App() {
 
   return (
     <div className="font-sans relative min-h-screen">
+      {/* ✅ SEO Tags */}
+      <Helmet>
+        <title>Rohith Reddy GK | Portfolio</title>
+        <meta
+          name="description"
+          content="Portfolio of Rohith Reddy GK showcasing AI/ML, Web Development, and innovative projects."
+        />
+        <meta
+          name="keywords"
+          content="Rohith Reddy, AI, Machine Learning, React, Portfolio, Developer"
+        />
+        <meta name="author" content="Rohith Reddy GK" />
+        <meta property="og:title" content="Rohith Reddy GK | Portfolio" />
+        <meta
+          property="og:description"
+          content="Showcasing my AI/ML and Web Development work."
+        />
+        <meta property="og:url" content="https://yourname.netlify.app" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-gradient bg-[length:400%_400%] -z-10" />
 
@@ -91,9 +113,9 @@ function App() {
         </section>
       </main>
 
-      {/* Footer (compact, not a section) */}
+      {/* Footer */}
       <Footer />
-    </div>
+    </div >
   );
 }
 
