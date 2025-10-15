@@ -43,6 +43,10 @@ function App() {
       {/* ✅ SEO Tags */}
       <Helmet>
         <title>Rohith Reddy GK | Portfolio</title>
+
+        {/* Google-verification Meta Tag */}
+        <meta name="google-site-verification" content="qOWfL2kMR8HWzb7OHP8zo-kUBRg8MLKOx44EykWJMlU" />
+        
         <meta
           name="description"
           content="Portfolio of Rohith Reddy GK showcasing AI/ML, Web Development, and innovative projects."
