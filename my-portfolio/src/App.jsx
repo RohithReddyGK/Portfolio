@@ -77,7 +77,7 @@ function App() {
             "https://github.com/rohithreddygk"
           ],
           "jobTitle": "AI & Full Stack Developer",
-          "image": "https://rohith-portfolio-gk.netlify.app/ADMET-X.png",
+          "image": "https://rohith-portfolio-gk.netlify.app/favicon.png",
           "description": "Portfolio of Rohith Reddy GK showcasing AI/ML and Web Development projects."
         }
       `}
