@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "postbuild": "react-snap",
     "preview": "vite preview"
   },
   "dependencies": {
