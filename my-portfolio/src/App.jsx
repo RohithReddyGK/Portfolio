@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="font-sans relative min-h-screen">
-      {/* ✅ SEO Tags */}
+      {/* SEO Tags */}
       <Helmet>
         <title>Rohith Reddy GK | Portfolio</title>
         <meta
@@ -52,12 +52,16 @@ function App() {
           content="Rohith Reddy, AI, Machine Learning, React, Portfolio, Developer"
         />
         <meta name="author" content="Rohith Reddy GK" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://rohith-portfolio-gk.netlify.app/" />
+
         <meta property="og:title" content="Rohith Reddy GK | Portfolio" />
         <meta
           property="og:description"
           content="Showcasing my AI/ML and Web Development work."
         />
-        <meta property="og:url" content="https://yourname.netlify.app" />
+        <meta property="og:url" content="https://rohith-portfolio-gk.netlify.app/" />
         <meta property="og:type" content="website" />
       </Helmet>
 
