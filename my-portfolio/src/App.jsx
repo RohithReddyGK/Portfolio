@@ -63,6 +63,25 @@ function App() {
         />
         <meta property="og:url" content="https://rohith-portfolio-gk.netlify.app/" />
         <meta property="og:type" content="website" />
+
+        {/* Structured Data / Schema */}
+        <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Rohith Reddy G K",
+          "url": "https://rohith-portfolio-gk.netlify.app/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rohithreddygk/",
+            "https://github.com/rohithreddygk"
+          ],
+          "jobTitle": "AI & Full Stack Developer",
+          "image": "https://rohith-portfolio-gk.netlify.app/ADMET-X.png",
+          "description": "Portfolio of Rohith Reddy GK showcasing AI/ML and Web Development projects."
+        }
+      `}
+        </script>
       </Helmet>
 
       {/* Animated Gradient Background */}
