@@ -6,6 +6,16 @@ import { ExternalLink, Github } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
+      title: "ADMET-X",
+      org: "AMC Engineering College",
+      period: "May - Oct 2025",
+      description: "ADMET-X is a comprehensive, AI-powered platform for predicting Absorption, Distribution, Metabolism, Excretion, and Toxicity (ADMET) properties of drug molecules based on their SMILES representations. It leverages machine learning models to provide accurate drug-likeness assessments and visual insights through radar plots and molecular drawings.",
+      skills: ["React.js", "TailwindCSS", "Python", "Flask", "RDKit", "Fly.io", "Vercel"],
+      github: "https://github.com/RohithReddyGK/ADMET-X",
+      live: "https://admet-x.vercel.app",
+      image: "/projects/ADMET-X Image.png"
+    },
+    {
       title: "Personal Portfolio Website",
       period: "Sep 2025 - Present",
       description: "My personal portfolio website. Built with React, Tailwind CSS, and Framer Motion for smooth animations. Showcases Full Stack Development and AI/ML projects with interactive UI.",
@@ -25,6 +35,17 @@ export default function Projects() {
         "https://github.com/RohithReddyGK/Cost-of-Living-Analyzer-Global-Insights-With-Interactive-Data-Visualization",
       live: "#",
       image: "/projects/Cost of Living Analyzer.png"
+    },
+    {
+      title: "AI-Powered Health Assistant",
+      org: "Edunet Foundation",
+      period: "Jan – Feb 2025",
+      description:
+        "Chatbot powered by Gemini-2.5-Flash-Lite for medical assistance. Identifies symptoms, suggests solutions, and provides precautionary measures.",
+      skills: ["Python", "Streamlit", "Transformers", "NLP", "Requests"],
+      github: "https://github.com/RohithReddyGK/AI-Powered-Health-Assistant",
+      live: "https://aihealth-assistant-chatbot.streamlit.app/",
+      image: "/projects/AI-Powered Health Assistant.png"
     },
     {
       title: "AI-Based Learning Style Predictor",
@@ -70,17 +91,6 @@ export default function Projects() {
         "https://github.com/RohithReddyGK/Interactive-Java-Applications-Using-Swing-and-Servlets",
       live: "#",
       image: "/projects/Interactive Java Applications.png"
-    },
-    {
-      title: "AI-Powered Health Assistant",
-      org: "Edunet Foundation",
-      period: "Jan – Feb 2025",
-      description:
-        "Chatbot powered by Falcon-7B-Instruct for medical assistance. Identifies symptoms, suggests solutions, and provides precautionary measures.",
-      skills: ["Python", "Streamlit", "Transformers", "NLP", "Requests"],
-      github: "https://github.com/RohithReddyGK/AI-Powered-Health-Assistant",
-      live: "https://rohithreddygk-ai-powered-health-assistant-aichatbot-wd5ka5.streamlit.app/",
-      image: "/projects/AI-Powered Health Assistant.png"
     },
   ];
 
