@@ -10,16 +10,25 @@ export default function Projects() {
       org: "AMC Engineering College",
       period: "May - Oct 2025",
       description: "ADMET-X is a comprehensive, AI-powered platform for predicting Absorption, Distribution, Metabolism, Excretion, and Toxicity (ADMET) properties of drug molecules based on their SMILES representations. It leverages machine learning models to provide accurate drug-likeness assessments and visual insights through radar plots and molecular drawings.",
-      skills: ["React.js", "TailwindCSS", "Python", "Flask", "RDKit", "Fly.io", "Vercel"],
+      skills: ["React.js", "TailwindCSS", "Python", "Flask", "RDKit"],
       github: "https://github.com/RohithReddyGK/ADMET-X",
       live: "https://admet-x.vercel.app",
       image: "/projects/ADMET-X Image.png"
     },
     {
+      title: "AI-Powered Finance Dashboard",
+      period: "Nov 2025 - Nov 2025",
+      description: "AI-Powered Finance Dashboard enables organizations to analyze invoice spending, vendor performance, and financial patterns using interactive visualizations alongside AI-assisted data exploration.",
+      skills: ["Next.js", "TailwindCSS", "shadcn/ui", "Recharts", "Express.js", "Prisma ORM", "FastAPI", "Groq LLM", "PostgreSQL"],
+      github: "https://github.com/RohithReddyGK/AI-Powered-Finance-Dashboard",
+      live: "https://ai-powered-finance-dashboard.vercel.app/",
+      image: "/projects/AI-Powered Finance Dashboard.jpeg"
+    },
+    {
       title: "Personal Portfolio Website",
       period: "Sep 2025 - Present",
       description: "My personal portfolio website. Built with React, Tailwind CSS, and Framer Motion for smooth animations. Showcases Full Stack Development and AI/ML projects with interactive UI.",
-      skills: ["React.js", "TailwindCSS", "Framer Motion", "EmailJS", "Netlify"],
+      skills: ["React.js", "TailwindCSS", "Framer Motion", "EmailJS"],
       github: "https://github.com/RohithReddyGK/Portfolio",
       live: "https://rohith-portfolio-gk.netlify.app/",
       image: "/projects/Portfolio.png"
