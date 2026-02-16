@@ -133,7 +133,7 @@ export default function About() {
                         variants={fadeUp}
                     >
                         <img
-                            src="/Profile Photo.jpg"
+                            src="/Profile_Picture.png"
                             alt="profile"
                             className="w-full h-full object-cover rounded-full"
                         />
