@@ -55,6 +55,7 @@ export default function About() {
             logo: "/Company Logos/HTIC IITM Logo.png",
             period: "Feb 2026 – May 2026",
             offerLetter: "/docs/project-intern-offer-letter.pdf",
+            certificate: "/docs/project-intern-certificate.pdf",
             description: [
                 "Worked with the IGRS (Image-Guided Robotic Surgery) team on research-oriented medical technology systems, gaining hands-on exposure to clinical-grade medical robotics and imaging systems."
             ]
