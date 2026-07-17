@@ -18,7 +18,7 @@ export default function About() {
         },
         {
             title: "Databases",
-            items: ["Oracle", "PostgreSQL", "MongoDB"]
+            items: ["Oracle", "MongoDB"]
         },
         {
             title: "Tools & Platforms",
@@ -32,7 +32,7 @@ export default function About() {
 
     /* EDUCATION */
     const education = [
-        { title: "B.E. – ISE", institute: "AMC Engineering College", year: "Dec 2022 – Present", cgpa: "9.13" },
+        { title: "B.E. – ISE", institute: "AMC Engineering College", year: "Dec 2022 – Jul 2026", cgpa: "9.22" },
         { title: "12th Standard", institute: "BGS PU College", year: "2022", percentage: "96.16%" },
         { title: "10th Standard", institute: "BGS Public School", year: "2020", percentage: "95.83%" },
     ];
@@ -40,23 +40,35 @@ export default function About() {
     /* EXPERIENCE */
     const experience = [
         {
+            role: "Project Associate",
+            company: "HTIC, IIT Madras",
+            logo: "/Company Logos/HTIC IITM Logo.png",
+            period: "Jun 2026 – Present",
+            description: [
+                "Developing deep learning models for 3D reconstruction of anatomical structures from medical imaging data to support surgical navigation.",
+                "Designing, training, and optimizing AI/ML deep learning models to solve real-time clinical problems in image-guided robotic surgery and diagnostic imaging."
+            ]
+        },
+        {
             role: "Project Intern",
             company: "HTIC, IIT Madras",
             logo: "/Company Logos/HTIC IITM Logo.png",
-            period: "Present",
+            period: "Feb 2026 – May 2026",
             offerLetter: "/docs/project-intern-offer-letter.pdf",
             description: [
-                "Eagerly waiting to learn, explore & contribute to the innovations that have been carried out in Healthcare Technology at HTIC, IITM."
+                "Worked with the IGRS (Image-Guided Robotic Surgery) team on research-oriented medical technology systems, gaining hands-on exposure to clinical-grade medical robotics and imaging systems."
             ]
         },
         {
             role: "AI Internship",
             company: "Infosys Springboard",
             logo: "/Company Logos/InfosysSpringboard Logo.png",
-            period: "Prsent",
+            period: "Feb 2026 – Apr 2026",
             offerLetter: "/docs/ai-internship-offer-letter.pdf",
+            certificate: "/docs/Infosys_Springboard_Certificate.pdf",
             description: [
-                "Eagerly waiting to learn and get an experience out of this AI Internship."
+                "Designed and developed an intelligent \"AI-Driven Code Reviewer\" system as part of the Infosys Springboard AI Virtual Internship, analyzing source code and generating automated review suggestions using AI-based techniques.",
+                "Progressed through 4 structured milestones covering project architecture, AI concepts, and implementation strategies; independently carried out complete project design, development, and integration."
             ]
         },
         {
@@ -146,7 +158,7 @@ export default function About() {
                         whileInView="visible"
                         viewport={{ once: true }}
                     >
-                        I am an Aspiring <strong>Full Stack Developer</strong> and <strong>AI/ML Engineer</strong>, currently pursuing my final year B.E. in Information Science and Engineering. I am deeply passionate about technology, with a strong interest in <strong>front-end design, artificial intelligence and software development.</strong>.
+                        I work at the intersection of <strong>Artificial Intelligence</strong>, <strong>Medical Imaging</strong>, and <strong>Software Engineering</strong> at <strong>HTIC, IIT Madras</strong>. My focus is on developing deep learning solutions for healthcare while building scalable software that bridges research and real-world applications.
                     </motion.p>
                 </div>
 

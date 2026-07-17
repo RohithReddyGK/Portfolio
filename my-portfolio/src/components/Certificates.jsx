@@ -8,6 +8,12 @@ export default function Certifications() {
 
   const certificates = [
     {
+      title: "Certificate of IEEE-ICAUC 2026 Presentation",
+      org: "IEEE-International Conference on AI-Driven Smart Systems and Ubiquitous Computing 2026",
+      date: "Jan 20, 2026",
+      image: "/certificates/IEEE-ICAUC 2026.png",
+    },
+    {
       title: "Academic Excellence - ISE (CGPA: 9.13)",
       org: "AMC Engineering College",
       date: "Sep 19, 2025",

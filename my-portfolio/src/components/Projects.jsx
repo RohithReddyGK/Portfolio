@@ -16,6 +16,16 @@ export default function Projects() {
       image: "/projects/ADMET-X Image.png"
     },
     {
+      title: "AI-Driven Code Reviewer",
+      org: "Infosys Springboard",
+      period: "Feb 2026 - April 2026",
+      description: "An intelligent platform that analyzes code, detects errors, improves code quality, and optimizes performance using advanced AI models. Built for beginners who intend to learn. Powered by Groq's ultra-fast LPU inference. Analyze bugs & anti-patterns. Optimize with AI-generated alternatives. Visualize Time & Space complexity. Chat with a code-aware AI assistant.",
+      skills: ["React.js", "TailwindCSS", "Monaco-Editor", "Python", "Flask", "Groq API"],
+      github: "https://github.com/RohithReddyGK/AI-Driven-Code-Reviewer",
+      live: "https://codereviewiq.vercel.app/",
+      image: "/projects/AI-Driven Code Reviewer.png"
+    },
+    {
       title: "AI-Powered Finance Dashboard",
       period: "Nov 2025 - Nov 2025",
       description: "AI-Powered Finance Dashboard enables organizations to analyze invoice spending, vendor performance, and financial patterns using interactive visualizations alongside AI-assisted data exploration.",
